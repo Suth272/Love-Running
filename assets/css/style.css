@@ -280,7 +280,7 @@ main {
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1 rem;
+        padding-right: 1rem;
     }
 
     #menu {
@@ -359,44 +359,44 @@ main {
     }
 }
 
-    /*Media query: small laptops and larger (992px and up)*/
-    @media screen and (min-width: 992px) {
-        #menu a:hover {
-            border-bottom: 1px solid #3a3a3a;
-        }
-
-        /*Gallery*/
-        #photos {
-            column-count: 4;
-        }
+/*Media query: small laptops and larger (992px and up)*/
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 
-    /*Media query: screens for 1200px and wider*/
-    @media screen and (min-width: 1200px) {
-
-        /*Reasons section*/
-        #benefits {
-            display: flex;
-            flex-direction: row;
-        }
-
-        #benefits>div {
-            flex: 1;
-        }
-
-        #benefits-image {
-            order: 0;
-        }
-
-        #benefits-mental {
-            order: 1;
-        }
-
-        #benefits-mental>div {
-            align-self: flex-start;
-        }
-
-        #benefits-physical>div {
-            align-self: flex-end;
-        }
+    /*Gallery*/
+    #photos {
+        column-count: 4;
     }
+}
+
+/*Media query: screens for 1200px and wider*/
+@media screen and (min-width: 1200px) {
+
+    /*Reasons section*/
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits>div {
+        flex: 1;
+    }
+
+    #benefits-image {
+        order: 0;
+    }
+
+    #benefits-mental {
+        order: 1;
+    }
+
+    #benefits-mental>div {
+        align-self: flex-start;
+    }
+
+    #benefits-physical>div {
+        align-self: flex-end;
+    }
+}
